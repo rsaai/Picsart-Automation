@@ -10,5 +10,11 @@
   ###	Validated the different categories in the blog page
   ###	Validated the dynamic images
   ###	Validate the Cover and suggested Post
-  ###	validated the schema using Rest Assured
+  ###	Validated the schema using Rest Assured
+  ###	Added Extent Reports for logging mechanism
+  ###	Added capability to run in local and remote using remote web driver
+  ###	Added capability to run as TestNG suite, test and also through maven build command
+  ###	Implemented WebDriver listener and try catch blocks to handle the page load synchronization
+  ###	Implemented Retry analyser to execute the test case thrice if failed.
+  
 
