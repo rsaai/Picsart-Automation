@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" retried="2" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90629" started-at="2021-10-17T12:15:52 IST" finished-at="2021-10-17T12:17:23 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="90629" started-at="2021-10-17T12:15:52 IST" finished-at="2021-10-17T12:17:23 IST">
+      <class name="interview.PicsartTest">
+        <test-method status="PASS" signature="launchReport()[pri:0, instance:interview.PicsartTest@64485a47]" name="launchReport" is-config="true" duration-ms="156" started-at="2021-10-17T12:15:52 IST" finished-at="2021-10-17T12:15:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchReport -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:interview.PicsartTest@64485a47]" name="launchBrowser" is-config="true" duration-ms="2341" started-at="2021-10-17T12:15:53 IST" finished-at="2021-10-17T12:15:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="picsartUIValidation(java.util.HashMap)[pri:0, instance:interview.PicsartTest@64485a47]" name="picsartUIValidation" duration-ms="24484" retried="true" started-at="2021-10-17T12:15:55 IST" data-provider="testdata" finished-at="2021-10-17T12:16:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Category4=news, Category3=picsart-pro, UserName=rooban10@gmail.com, Category2=trends, Category1=design-school, TestCase=picsartUIValidation, SearchText=Bangalore, URL=https://picsart.com/, Password=WWF6aG5pbGEzQA==}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://picsart.com/blog/category/design-school] but found [https://picsart.com/blog]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://picsart.com/blog/category/design-school] but found [https://picsart.com/blog]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at pageClass.BlogPage.validateBlogPage(BlogPage.java:95)
+at interview.PicsartTest.picsartUIValidation(PicsartTest.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- picsartUIValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:interview.PicsartTest@64485a47]" name="closeBrowser" is-config="true" duration-ms="918" started-at="2021-10-17T12:16:20 IST" finished-at="2021-10-17T12:16:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:interview.PicsartTest@64485a47]" name="launchBrowser" is-config="true" duration-ms="1473" started-at="2021-10-17T12:16:21 IST" finished-at="2021-10-17T12:16:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="picsartUIValidation(java.util.HashMap)[pri:0, instance:interview.PicsartTest@64485a47]" name="picsartUIValidation" duration-ms="25285" retried="true" started-at="2021-10-17T12:16:22 IST" data-provider="testdata" finished-at="2021-10-17T12:16:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Category4=news, Category3=picsart-pro, UserName=rooban10@gmail.com, Category2=trends, Category1=design-school, TestCase=picsartUIValidation, SearchText=Bangalore, URL=https://picsart.com/, Password=WWF6aG5pbGEzQA==}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://picsart.com/blog/category/design-school] but found [https://picsart.com/blog]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://picsart.com/blog/category/design-school] but found [https://picsart.com/blog]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at pageClass.BlogPage.validateBlogPage(BlogPage.java:95)
+at interview.PicsartTest.picsartUIValidation(PicsartTest.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- picsartUIValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:interview.PicsartTest@64485a47]" name="closeBrowser" is-config="true" duration-ms="1091" started-at="2021-10-17T12:16:48 IST" finished-at="2021-10-17T12:16:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:interview.PicsartTest@64485a47]" name="launchBrowser" is-config="true" duration-ms="1315" started-at="2021-10-17T12:16:49 IST" finished-at="2021-10-17T12:16:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="picsartUIValidation(java.util.HashMap)[pri:0, instance:interview.PicsartTest@64485a47]" name="picsartUIValidation" duration-ms="30921" started-at="2021-10-17T12:16:50 IST" data-provider="testdata" finished-at="2021-10-17T12:17:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Category4=news, Category3=picsart-pro, UserName=rooban10@gmail.com, Category2=trends, Category1=design-school, TestCase=picsartUIValidation, SearchText=Bangalore, URL=https://picsart.com/, Password=WWF6aG5pbGEzQA==}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://picsart.com/blog/category/design-school] but found [https://picsart.com/blog]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://picsart.com/blog/category/design-school] but found [https://picsart.com/blog]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at pageClass.BlogPage.validateBlogPage(BlogPage.java:95)
+at interview.PicsartTest.picsartUIValidation(PicsartTest.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- picsartUIValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:interview.PicsartTest@64485a47]" name="closeBrowser" is-config="true" duration-ms="1083" started-at="2021-10-17T12:17:21 IST" finished-at="2021-10-17T12:17:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:interview.PicsartTest@64485a47]" name="closeReport" is-config="true" duration-ms="579" started-at="2021-10-17T12:17:22 IST" finished-at="2021-10-17T12:17:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- interview.PicsartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
